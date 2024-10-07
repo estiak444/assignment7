@@ -1,0 +1,42 @@
+h1{
+    color: orange;
+}
+h1:hover{
+    font-size: 40px;
+    border: 3px solid aqua;
+    background-color: rgb(212, 207, 207);
+    
+}
+small{
+    border: 2px solid palegreen;
+}
+input:focus{
+    outline: none;
+    border: 4px dashed yellow;
+
+}
+input::placeholder{
+    color:blue;
+    
+}
+a:visited{color: red;}
+li:first-child{
+  color: orangered;
+}
+li:last-child{ color: blue;}
+li:nth-child(3n){
+    color: greenyellow;
+}
+p::first-letter{
+    font-size: 40px;
+}
+p::first-line{
+    background-color: aqua;
+}
+p::selection{
+    background-color: orange;
+    color: azure;
+}
+span::after{
+    content:  before the doctor arrived;
+}

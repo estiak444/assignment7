@@ -1,0 +1,32 @@
+.box{
+    border: 2px solid red;
+    width: 200px;
+
+}
+.ring{
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+.second-container{
+    position: relative;
+    border: 2px solid black;
+}
+
+.secondring{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.thirdring{
+    position: sticky;
+    top: 0;
+}
+.new{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+.third-container{
+    border: 2px solid black;
+}
